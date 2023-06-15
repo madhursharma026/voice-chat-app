@@ -17,7 +17,7 @@ function App() {
       {show !== true ?
         <>
           <h1 className="text-center mb-3">
-            Voice Calling Website
+            Audio Chat App
           </h1>
           <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Your Username" aria-label="Your Username" aria-describedby="button-addon2" onChange={(e) => setValue(e.target.value)} />
